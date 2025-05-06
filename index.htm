@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Fleur Nature</title>
+</head>
+
+<body>
+    <header>
+        <h1>Fleur Nature</h1>
+        <nav>
+            <a href="#gallery">Collection</a>
+            <a href="#services">Services</a>
+            <a href="#about">À Propos</a>
+            <a href="#testimonials">Témoignages</a>
+            <a href="#faq">FAQ</a>
+            <a href="#team">Équipe</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Bienvenue chez Fleur Nature</h2>
+            <p>Découvrez la beauté des fleurs dans une ambiance naturelle et apaisante.</p>
+            <!-- <a href="#gallery" class="btn">Voir la collection</a> -->
+        </div>
+    </section>
+
+    <main>
+        <!-- Collection -->
+        <section id="gallery">
+            <h2>Notre Collection</h2>
+            <div class="gallery-grid grid-3">
+                <img src="assets/autre.jpg" alt="Fleur 1">
+                <img src="assets/feuille.jpg" alt="Fleur 2">
+                <img src="assets/flipflup.jpg" alt="Fleur 3">
+                <img src="assets/jsp-vert.jpg" alt="Fleur 4">
+                <img src="assets/p-vert.jpg" alt="Fleur 5">
+                <img src="assets/flipflup.jpg" alt="Fleur 3">
+            </div>
+        </section>
+
+        <!-- Services -->
+        <section id="services" class="services">
+            <h2>Services</h2>
+            <div class="grid-3">
+                <div class="card">
+                    <h3>Conception de Bouquets</h3>
+                    <p>Création sur mesure pour toutes les occasions : mariages, anniversaires, événements.</p>
+                </div>
+                <div class="card">
+                    <h3>Livraison Rapide</h3>
+                    <p>Livraison partout en France, garantie fraîcheur et ponctualité.</p>
+                </div>
+                <div class="card">
+                    <h3>Ateliers Floraux</h3>
+                    <p>Participez à nos ateliers pour apprendre l'art du bouquet et de l'arrangement floral.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- À Propos -->
+        <section id="about">
+            <h2>À Propos</h2>
+            <p>Fleur Nature est une boutique en ligne dédiée aux amoureux des fleurs. Fondée en 2015, notre équipe met
+                un point d'honneur à sélectionner des plantes de qualité et à promouvoir le respect de l'environnement.
+            </p>
+            <p>Notre mission : apporter la nature chez vous, tout en soutenant des producteurs locaux et en réduisant
+                l'empreinte carbone de nos livraisons.</p>
+        </section>
+
+        <!-- Témoignages -->
+        <section id="testimonials" class="testimonials">
+            <h2>Témoignages</h2>
+            <div class="card">
+                <p>"J'ai adoré mon bouquet, les couleurs et la fraîcheur étaient parfaites"</p>
+                <p class="author">— Marie D.</p>
+            </div>
+            <div class="card">
+                <p>"Service de livraison ultra rapide, reçu le jour même !"</p>
+                <p class="author">— Julien R.</p>
+            </div>
+        </section>
+
+        <!-- FAQ -->
+        <section id="faq" class="faq">
+            <h2>FAQ</h2>
+                <details>
+                    <summary>Comment passer une commande ?</summary>
+                    <p>Choisissez vos fleurs, ajoutez-les au panier, renseignez vos coordonnées et choisissez une date
+                        de livraison.</p>
+                </details>
+                <details>
+                    <summary>Quels sont les frais de livraison ?</summary>
+                    <p>Les frais sont offerts dès 50€ d'achat. Sinon, forfait de 5€ en France métropolitaine.</p>
+                </details>
+                <details>
+                    <summary>Proposez-vous des abonnements floraux ?</summary>
+                    <p>Oui, découvrez nos formules mensuelles dans la section Abonnements sur notre site.</p>
+                </details>
+        </section>
+
+        <!-- Équipe -->
+        <section id="team" class="team">
+            <h2>Notre Équipe</h2>
+                <div class="grid-3">
+                    <div class="member">
+                        <img src="assets/alice.jpg" alt="Alice, fondatrice">
+                        <h3>Alice</h3>
+                        <p>Fondatrice & Designer floral</p>
+                    </div>
+                    <div class="member">
+                        <img src="assets/marc.png" alt="Marc, directeur logistique">
+                        <h3>Marc</h3>
+                        <p>Directeur Logistique</p>
+                    </div>
+                    <div class="member">
+                        <img src="assets/sophie.jpg" alt="Sophie, responsable ateliers">
+                        <h3>Sophie</h3>
+                        <p>Responsable Ateliers</p>
+                    </div>
+                </div>
+        </section>
+
+        <!-- Newsletter -->
+        <section id="newsletter" class="newsletter">
+            <h2>Abonnez-vous à notre Newsletter</h2>
+            <form>
+                <input type="email" placeholder="Votre email">
+                <button type="submit">S'inscrire</button>
+            </form>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact" class="contact">
+            <h2>Contactez-nous</h2>
+            <form>
+                <input type="text" placeholder="Nom complet">
+                <input type="email" placeholder="Email">
+                <textarea rows="4" placeholder="Votre message"></textarea>
+                <button type="submit">Envoyer</button>
+            </form>
+            <p>Ou appelez-nous au <a href="tel:+33123456789">01 23 45 67 89</a></p>
+            <div class="map" style="margin-top: var(--spacing-md)">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18..." width="100%" height="250"
+                    style="border:0; border-radius: var(--border-radius);" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Fleur Nature. Tous droits réservés.</p>
+        <div class="social">
+            <a href="#" aria-label="Facebook">📘</a>
+            <a href="#" aria-label="Instagram">📸</a>
+            <a href="#" aria-label="Twitter">🐦</a>
+        </div>
+    </footer>
+</body>
+
+</html>
